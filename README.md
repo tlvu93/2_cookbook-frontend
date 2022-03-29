@@ -11,5 +11,5 @@ For the reason the Framework: <b>Tailwind CSS</b> has been used.
 
 ## Install dependencies
 ``` npm install```
-## Start the Tailwind CLI build process
-``` npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch ```
+## Start dev env
+``` npm run dev ```
