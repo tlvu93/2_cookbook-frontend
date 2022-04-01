@@ -324,8 +324,9 @@
                       <!-- Save Buttons -->
                       <button
                         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                        onclick="saveRecipe()"
                       >
-                        Button
+                        Save Recipe
                       </button>
                     </div>
                   </div>
@@ -1162,5 +1163,10 @@
         </div>
       </div>
     </section>
+    <script>
+      function saveRecipe() {
+        alert(`${window.location.href}`);
+      }
+    </script>
   </body>
 </html>
