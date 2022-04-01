@@ -132,50 +132,6 @@
                   />
                 </button>
               </div>
-
-              <!--
-            Dropdown menu, show/hide based on menu state.
-
-            Entering: "transition ease-out duration-100"
-              From: "transform opacity-0 scale-95"
-              To: "transform opacity-100 scale-100"
-            Leaving: "transition ease-in duration-75"
-              From: "transform opacity-100 scale-100"
-              To: "transform opacity-0 scale-95"
-          -->
-              <div
-                class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
-                role="menu"
-                aria-orientation="vertical"
-                aria-labelledby="user-menu-button"
-                tabindex="-1"
-              >
-                <!-- Active: "bg-gray-100", Not Active: "" -->
-                <a
-                  href="#"
-                  class="block px-4 py-2 text-sm text-gray-700"
-                  role="menuitem"
-                  tabindex="-1"
-                  id="user-menu-item-0"
-                  >Your Profile</a
-                >
-                <a
-                  href="#"
-                  class="block px-4 py-2 text-sm text-gray-700"
-                  role="menuitem"
-                  tabindex="-1"
-                  id="user-menu-item-1"
-                  >Settings</a
-                >
-                <a
-                  href="#"
-                  class="block px-4 py-2 text-sm text-gray-700"
-                  role="menuitem"
-                  tabindex="-1"
-                  id="user-menu-item-2"
-                  >Sign out</a
-                >
-              </div>
             </div>
           </div>
         </div>
@@ -219,7 +175,7 @@
     </div>
 
     <!-- Recipe Preview -->
-    <section class="px-8 py-2 bg-gray-100 md:px-0">
+    <section class="px-8 py-6 bg-gray-100 md:px-0">
       <div class="max-w-5xl mx-auto">
         <div class="mx-4 flex items-center justify-center">
           <div class="w-full mt-8 md:mt-0">
@@ -227,14 +183,22 @@
               class="p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-xl px-7"
             >
               <div
-                class="flex overflow-hidden rounded-2xl border-gray-300 border"
+                class="flex overflow-hidden rounded-2xl border-gray-300 border shadow-lg"
               >
-                <div class="">
+                <div
+                  class="relative group flex justify-center w-1/2 h-0 bg-center bg-cover"
+                >
                   <!-- Image -->
+
                   <img
-                    class="h-80"
+                    class="h-80 bg-no-repeat bg-center bg-cover"
                     src="https://www.gusto.at/_storage/asset/7297900/storage/womanat:slideshow-large/file/168299949/2013-03-054-B.jpg"
                   />
+                  <div
+                    class="absolute top-full transition-opacity bg-black text-white opacity-0 group-hover:opacity-100"
+                  >
+                    Spaghetti Carbonara
+                  </div>
                 </div>
                 <div class="w-full md:w-1/2">
                   <!-- Card Body -->
@@ -307,23 +271,23 @@
                     <div>
                       <!-- Tags -->
                       <span
-                        class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 bg-yellow-600 rounded-full"
+                        class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-yellow-400 border border-yellow-400 rounded-full"
                       >
                         Spaghetti</span
                       >
                       <span
-                        class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full"
+                        class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-400 border border-red-400 rounded-full"
                         >Meat</span
                       >
                       <span
-                        class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 bg-yellow-500 rounded-full"
+                        class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-yellow-400 border border-yellow-400 rounded-full"
                         >Noodles</span
                       >
                     </div>
                     <div>
                       <!-- Save Buttons -->
                       <button
-                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                        class="bg-blue-500 hover:bg-blue-700 shadow-md text-white font-bold py-2 px-4 rounded-full"
                         onclick="saveRecipe()"
                       >
                         Save Recipe
@@ -339,7 +303,7 @@
     </section>
 
     <!-- List of Ingredients -->
-    <section class="px-8 py-2 bg-gray-100 md:px-0">
+    <section class="px-8 py-6 bg-gray-100 md:px-0">
       <div class="max-w-5xl mx-auto">
         <div class="mx-4 flex items-center justify-center">
           <div class="w-full mt-8 md:mt-0">
@@ -634,7 +598,7 @@
     </section>
 
     <!-- Preparation -->
-    <section class="px-8 py-2 bg-gray-100 md:px-0">
+    <section class="px-8 py-6 bg-gray-100 md:px-0">
       <div class="max-w-5xl mx-auto">
         <div class="mx-4 flex items-center justify-center">
           <div class="w-full mt-8 md:mt-0">
@@ -723,7 +687,7 @@
     </section>
 
     <!-- Inspirations -->
-    <section class="px-8 py-2 bg-gray-100 md:px-0">
+    <section class="px-8 py-6 bg-gray-100 md:px-0">
       <div class="max-w-5xl mx-auto">
         <div class="mx-4 flex items-center justify-center">
           <div class="w-full mt-8 md:mt-0">
