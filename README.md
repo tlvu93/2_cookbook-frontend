@@ -2,16 +2,23 @@
 The Cookbook web page is an exercise webpage created at the WBS Coding School. <br/>
 The primary focus of this exercise is to create a prototype design with Figma and learn to work with a CSS Framework. <br /><br />
   
-[![Netlify Status](https://api.netlify.com/api/v1/badges/eff67e09-c6b6-42a0-a4bd-1debbeb04a5b/deploy-status)](https://app.netlify.com/sites/cookbook-exercise-wbs/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eff67e09-c6b6-42a0-a4bd-1debbeb04a5b/deploy-status)](https://app.netlify.com/sites/cookbook-exercise-wbs/deploys)  
 
+### Prototype
+<a href="https://www.figma.com/file/CHHsICnYnlp6ZMBtAk0gdi/Cookbook?node-id=9%3A628" target="_blank" rel="noreferrer">
+  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
+</a>
+
+### Demo
+<a href="https://cookbook-exercise-wbs.netlify.app" target="_blank" rel="noreferrer">
+  ![image](https://user-images.githubusercontent.com/101603072/164814719-92ab56e0-d066-45aa-b13a-0ea67152b49f.png)
+</a>
 
 
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
-  </a>
+ 
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
   </a>
