@@ -11,8 +11,9 @@ The primary focus of this exercise is to create a prototype design with Figma an
 
 ### Demo
 <a href="https://cookbook-exercise-wbs.netlify.app" target="_blank" rel="noreferrer">
-  ![image](https://user-images.githubusercontent.com/101603072/164814719-92ab56e0-d066-45aa-b13a-0ea67152b49f.png)
+ <img src="https://user-images.githubusercontent.com/101603072/164814719-92ab56e0-d066-45aa-b13a-0ea67152b49f.png" alt="netlify" width="480" height="256"/>
 </a>
+
 
 
 
